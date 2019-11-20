@@ -9,6 +9,6 @@ package workshop.projekt;
  *
  * @author thkri
  */
-public interface Aktuator {
+public class Aktuator {
     
 }

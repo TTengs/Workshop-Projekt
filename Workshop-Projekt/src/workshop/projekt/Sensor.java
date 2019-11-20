@@ -9,6 +9,6 @@ package workshop.projekt;
  *
  * @author thkri
  */
-public interface Sensor {
+public class Sensor {
     
 }
