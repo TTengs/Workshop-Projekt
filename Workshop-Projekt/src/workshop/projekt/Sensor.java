@@ -19,7 +19,7 @@ public class Sensor {
         return this.name;
     }
 
-    public String GetSensorType() {
+    public String getSensorType() {
         if (sensorType == true)
         {
             return "CO2Sensor";
@@ -31,7 +31,7 @@ public class Sensor {
     
     @Override
     public String toString() {
-        return "Sensor{" + "value=" + getValue() + ", name=" + getName() + ", sensorType=" + GetSensorType() + '}';
+        return "Sensor{" + "value=" + getValue() + ", name=" + getName() + ", sensorType=" + getSensorType() + '}';
     }
    
     
