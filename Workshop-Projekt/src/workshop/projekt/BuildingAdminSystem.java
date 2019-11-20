@@ -6,30 +6,30 @@
 package workshop.projekt;
 
 import java.util.ArrayList;
-
+import java.util.List;
 /**
  *
  * @author theistengs
  */
+
 public class BuildingAdminSystem {
-    
-    private static ArrayList<Building> buildings;
-    
+    private static List<Building> Buildings = new ArrayList<>();
+       
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Building b = new Building();
+        Building b = new Building("Bygning1");
         
-        buildings.add(b);
-        
+        Buildings.add(b);
+        b.addActuator(10, "A1");
         
         getBuildings();
         
     }   
     
     public static void getBuildings(){
-        for (Building b : buildings){
+        for (Building b : Buildings){
             System.out.println(b);
         }
     }
