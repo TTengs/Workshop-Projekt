@@ -27,7 +27,7 @@ public class Aktuator {
 
     @Override
     public String toString() {
-        return "Aktuator{" + "value=" + getValue() + ", name=" + getName() + '}';
+        return "Aktuator { " + "value = " + getValue() + ", name = " + getName() + '}';
     }
     
     

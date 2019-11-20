@@ -35,8 +35,9 @@ public class Building {
         return actuator;
     }
     
-    public void addSensor(List<Sensor> sensor){
-        this.sensor = sensor;
+    public void addSensor(int value, String name, boolean sensorType){
+       Sensor b = new Sensor(value, name, sensorType);
+       sensor.add(b);
     }
     
     public void addActuator(double num, String name){
@@ -56,7 +57,7 @@ public class Building {
 
     @Override
     public String toString() {
-        return "Building{" + "sensor=" + sensor + ", actuator=" + actuator + ", name=" + name + '}';
+        return "Building { " + "sensor = " + sensor + ", actuator = " + actuator + ", name = " + name + '}';
     }
     
     

@@ -31,7 +31,7 @@ public class Sensor {
     
     @Override
     public String toString() {
-        return "Sensor{" + "value=" + getValue() + ", name=" + getName() + ", sensorType=" + getSensorType() + '}';
+        return "Sensor { " + "value = " + getValue() + ", name = " + getName() + ", sensorType = " + getSensorType() + '}';
     }
    
     
