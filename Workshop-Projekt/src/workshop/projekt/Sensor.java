@@ -7,8 +7,8 @@ package workshop.projekt;
 
 /**
  *
- * @author theistengs
+ * @author thkri
  */
-public class Sensor {
+public interface Sensor {
     
 }

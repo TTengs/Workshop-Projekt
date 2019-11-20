@@ -9,6 +9,6 @@ package workshop.projekt;
  *
  * @author theistengs
  */
-public class Actuator {
+public class CO2Sensor {
     
 }
