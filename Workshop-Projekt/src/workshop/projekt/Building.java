@@ -29,7 +29,7 @@ public class Building {
         this.sensor = sensor;
     }
     
-    public void addActuator(List<Sensor> actuato){
+    public void addActuator(List<Aktuator> actuator){
         this.actuator = actuator;
     }
     
