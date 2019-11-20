@@ -13,20 +13,22 @@ import java.util.ArrayList;
  */
 public class BuildingAdminSystem {
     
-    private ArrayList<Building> buildings;
+    private static ArrayList<Building> buildings;
     
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Building b = new Building();
         
-    }
-    
-    public void addBuilding(String name){
+        buildings.add(b);
         
-    }
+        
+        getBuildings();
+        
+    }   
     
-    public void getBuildings(){
+    public static void getBuildings(){
         for (Building b : buildings){
             System.out.println(b);
         }
