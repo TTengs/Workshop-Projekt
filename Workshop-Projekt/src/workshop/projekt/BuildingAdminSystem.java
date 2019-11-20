@@ -5,17 +5,34 @@
  */
 package workshop.projekt;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author theistengs
  */
 public class BuildingAdminSystem {
-
+    
+    private ArrayList<Building> buildings;
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
+    public void addBuilding(String name){
+        
+    }
+    
+    public void getBuildings(){
+        for (Building b : buildings){
+            System.out.println(b);
+        }
+    }
+    
+    public void removeBuilding(String name){
+        
+    }
 }
